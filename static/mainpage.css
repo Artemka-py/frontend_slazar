@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic');
+*{
+    font-family: 'Cuprum', sans-serif;
+    background-color: #C9CFDB;
+}
+.header1{
+    height: 80px;
+    background-color: #17153D;
+}

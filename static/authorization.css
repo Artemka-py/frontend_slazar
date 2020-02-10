@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic');
+*{
+    font-family: 'Cuprum', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #403f5f;
+    color: #f5f5f5;
+}
+body{
+    width: 680px;
+    height: 925px;
+}
+.content{
+    padding: 0px 40px;
+}
+#header_buttons{
+    width: 397px;
+    height: 39px;
+    margin: 93px 0px 112px;
+}
+#razdel_vhod a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-line: initial 130px;
+    text-decoration-color: #41B346;
+    float: left;
+}
+#razdel_reg a{
+    font-size: 30px;
+    text-decoration-line: none;
+    margin-left: 68px;
+}
+#auth_form{
+    margin-bottom: 96px;
+    font-size: 28px;
+}
+.auth{
+    background-color: white;
+    width: 600px;
+    height: 70px;
+    margin: 15px 0px;
+    color: #000000;
+    font-size: 30px;
+}
+#remember_me{
+    font-size: 26px;
+    float: right;
+    margin-top: 10px;
+}
+#form_line3{
+    width: 280px;
+    height: 45px;
+}
+.switch {
+    position: relative;
+    display: inline-flex;
+    width: 80px;
+    height: 42px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 6px;
+    bottom: 7px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #62bd66;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #62bd66;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    transform: translateX(40px);
+}
+
+.slider.round {
+    border-radius: 100px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+#form_line4{
+    width: 600px;
+    height: 70px;
+    text-decoration-line: none;
+    text-align: center;
+    background-color: #41B346;
+    margin: 55px 0px 62px;
+}
+#form_line4 a{
+    text-decoration-line: none;
+    text-align: center;
+    font-size: 26px;
+    background-color: #41B346;
+    margin-top: 20px;
+    display: inline-flex;
+}
+#remind_passw a{
+    height: 185px;
+    width: 25px;
+    margin: 62px 208px 208px 96px;
+}
